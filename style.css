@@ -1,0 +1,45 @@
+body {
+	margin:0;
+	padding:0
+}
+
+@media only screen and (min-width:960px) {
+	
+.ornek1 {
+	
+    width:500px;
+	height:400px;
+	background:#666;
+	color:#fff;
+	font-family: Arial;
+	margin:0 auto;
+	margin-top:30px;
+	padding:20px
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width:959px) {
+	
+.ornek1 {
+	width:700px;
+	background:yellow;
+	color:#fff;
+	font-family: Arial;
+	margin:20px;
+	padding:20px
+}
+
+}
+
+@media only screen and (max-width:768px) {
+	
+.ornek1 {
+	background:red;
+	color:#fff;
+	font-family: Arial;
+	margin:20px;
+	padding:20px
+}
+
+}
